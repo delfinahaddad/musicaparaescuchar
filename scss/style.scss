@@ -299,9 +299,7 @@ margin: 20px
     color: #DC3545;
 }
 
-h1.containerRusia__titulo{
-    font-style: italic;
-}
+
 
 /*este se lo apliqué al titulo de cada sección*/
 .titulosSecciones__nombre{
@@ -373,9 +371,14 @@ h1.containerRusia__titulo{
 .containerRusia{
     margin-top: 50px;
     margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 50px;
 }
 
+h1.containerRusia__titulo{
+    font-style: italic;
+    margin-bottom: 20px;
+}
 
 
 /*aca segui agregando todo lo que quieras para la media query de celu,centar con flexbox la cards, y demas*/
