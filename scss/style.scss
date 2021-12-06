@@ -5,6 +5,7 @@
 }
 body {
     background-color: rgb(255, 244, 245);
+    overflow-x: hidden;
 }
 .botonPersonalizado{
     background-color: #DC3545;
@@ -20,17 +21,17 @@ header img{
     margin-top: 5px;
     margin-bottom: 5px;
 }
-.datos {
+/*.datos {
     color: rgb(226, 83, 131);
     grid-area: datos;
     justify-self: center;
     align-self: center;
     
-}
-.datos img{
+}*/
+/*.datos img{
     width: 20%;
     height: 10%
-}
+}*/
 .contacto {
     margin-top: 100px;
     margin-left: 100px;
@@ -233,15 +234,15 @@ nav{
    margin-top: -150px;
 }*/
 
-footer {
-    display: grid;
-    grid-template-columns: 200px 150px 200px 200px 100px;
-    
-}
+
 
 footer {
     color: rgb(226, 83, 131);
     background-color: lightpink;
+    
+    height: 80px;
+    bottom: 0;
+    width: 100%;
     
 }
 
