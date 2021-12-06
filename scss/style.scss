@@ -380,6 +380,54 @@ h1.containerRusia__titulo{
     margin-bottom: 20px;
 }
 
+.descripcionRecitales{
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+    color: rgb(100, 98, 98);
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.videosRecitales{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.videoTom{
+    text-align: center;
+    color: rgb(233, 96, 142);
+    margin-top: 50px ;
+    margin-bottom: 20px;
+}
+
+.videoSantana{
+   text-align: center;
+    color: rgb(233, 96, 142);
+    margin-top: 50px ;
+    margin-bottom: 20px;
+}
+
+.videoMen{
+    text-align: center;
+    color: rgb(233, 96, 142);
+    margin-top: 50px ;
+    margin-bottom: 20px;
+}
+
+.videoChita{
+    text-align: center;
+    color: rgb(233, 96, 142);
+    margin-top: 50px ;
+    margin-bottom: 20px;
+}
 
 /*aca segui agregando todo lo que quieras para la media query de celu,centar con flexbox la cards, y demas*/
 @media only screen and (max-width: 767px){
