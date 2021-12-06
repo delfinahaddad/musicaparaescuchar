@@ -72,11 +72,7 @@ tr th {
     color: white;
     background-color: lightpink;
 }
-.listaArtistas {
-    list-style-position: outside;
-    list-style-image: url('../media/auriculares2.png');
-    font-family: 'Poppins', sans-serif;
-}
+
 nav {
     background-color: lightpink;
     padding: 10px 10px;
@@ -199,17 +195,7 @@ ul li:hover ul {
     align-items: center;
     align-content: space-evenly;
 }*/
-.tituloBenee {
-    color: white;
-    width: 300px;
-    height: 200px;
-    border: solid 5px black;
-    padding: 20px;
-    background-color: rgb(134, 133, 134);
-    margin-top: 100px;
-    margin-right: 20px;
-    flex-basis: 300px;
-}
+
 
 .artistasNuevosCubos {
     display: flex;
@@ -269,11 +255,11 @@ footer {
 
 }
 .segundaTanda{
-display: flex;
-flex-direction: row;
-margin-top: 25px;
-justify-content: space-between;
-margin: 20px
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    justify-content: space-between;
+    margin: 20px
 
 }
 
