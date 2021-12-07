@@ -22,17 +22,13 @@ header img {
   margin-top: 5px;
   margin-bottom: 5px; }
 
-/*.datos {
-    color: rgb(226, 83, 131);
-    grid-area: datos;
-    justify-self: center;
-    align-self: center;
-    
-}*/
-/*.datos img{
-    width: 20%;
-    height: 10%
-}*/
+footer {
+  color: #e25383;
+  background-color: lightpink;
+  height: 80px;
+  bottom: 0;
+  width: 100%; }
+
 .contacto {
   margin-top: 100px;
   margin-left: 100px;
@@ -231,13 +227,6 @@ nav {
    margin-left: 150px;
    margin-top: -150px;
 }*/
-footer {
-  color: #e25383;
-  background-color: lightpink;
-  height: 80px;
-  bottom: 0;
-  width: 100%; }
-
 /*aca agregue las tandas de cards*/
 .primerosDosArtistas {
   display: flex;
