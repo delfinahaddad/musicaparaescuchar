@@ -285,6 +285,16 @@ nav {
   justify-content: space-between;
   margin: 20px; }
 
+.descripcionArtistas {
+  font-weight: lighter;
+  font-family: 'Poppins', sans-serif;
+  line-height: 25px;
+  color: #646262;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px; }
+
 .titulosDiscos__primerosTresDiscos {
   display: flex;
   flex-direction: row;
