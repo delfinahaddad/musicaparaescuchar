@@ -312,6 +312,33 @@ nav{
     
 }
 
+.titulosDiscos__primerosTresDiscos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.titulosDiscos__segundaTanda{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.descripcionDiscos{
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+    color: rgb(100, 98, 98);
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
 
 @import './imports/variables';
 
@@ -369,6 +396,7 @@ h1.containerRusia__titulo{
     margin-right: 20px;
     margin-bottom: 50px;
 }
+
 
 .videosRecitales{
     margin-top: 50px;

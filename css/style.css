@@ -285,6 +285,30 @@ nav {
   justify-content: space-between;
   margin: 20px; }
 
+.titulosDiscos__primerosTresDiscos {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  justify-content: space-between;
+  margin: 20px; }
+
+.titulosDiscos__segundaTanda {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  justify-content: space-between;
+  margin: 20px; }
+
+.descripcionDiscos {
+  font-weight: lighter;
+  font-family: 'Poppins', sans-serif;
+  line-height: 25px;
+  color: #646262;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px; }
+
 .titulosSecciones__nombre {
   color: #e25383; }
 
