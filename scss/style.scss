@@ -375,6 +375,19 @@ nav{
     margin-bottom: 20px;
 }
 
+.rusia{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgb(233, 96, 142);
+    margin-top: 50px ;
+    margin-bottom: 20px;
+}
 
 
 @import './imports/variables';
@@ -413,12 +426,60 @@ nav{
 
 .containerRusia{
     margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+
+h1.containerRusia__titulo{
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.containerTaylor{
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+
+h1.containerTaylor__titulo{
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.containerChita{
+    margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 50px;
 }
 
-h1.containerRusia__titulo{
+h1.containerChita__titulo{
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.containerProximos{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+h1.containerProximos__titulo{
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.containerVerano{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+h1.containerVerano__titulo{
     font-style: italic;
     margin-bottom: 20px;
 }
