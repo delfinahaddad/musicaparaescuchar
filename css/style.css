@@ -29,6 +29,15 @@ footer {
   bottom: 0;
   width: 100%; }
 
+.infoFooter {
+  display: grid;
+  justify-items: center; }
+
+.iconoFooter {
+  display: grid;
+  justify-items: right;
+  padding: 10px 50px; }
+
 .contacto {
   margin-top: 100px;
   margin-left: 100px;
