@@ -28,6 +28,10 @@ header img {
   margin-top: 5px;
   margin-bottom: 5px; }
 
+.container {
+  width: 640px;
+  height: 360px; }
+
 /*acá toda la info del footer*/
 footer {
   color: #e25383;
@@ -84,6 +88,23 @@ nav {
 .contacto__titulo {
   color: #DC3545; }
 
+.fraseInicio {
+  align-items: center;
+  margin-top: 150px;
+  color: #DC3545; }
+
+.letraFraseInicio {
+  text-align: center;
+  font-size: 80px; }
+
+.letraFraseSegunda {
+  text-align: center;
+  font-size: 40px; }
+
+.letraFraseTercera {
+  text-align: center;
+  font-size: 12px; }
+
 /*este se lo apliqué al titulo de cada sección*/
 .titulosSecciones__nombre {
   font-weight: bold;
@@ -92,7 +113,7 @@ nav {
   font-family: sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 50px; }
 
