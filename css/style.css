@@ -15,13 +15,20 @@ body {
 .colorpersonalizado {
   color: lightpink; }
 
+header {
+  background-color: #fff4f5;
+  position: sticky;
+  top: 0;
+  z-index: 2; }
+
 header img {
-  max-width: 200px;
-  height: 200px;
+  max-width: 100px;
+  height: 100px;
   margin-left: 20px;
   margin-top: 5px;
   margin-bottom: 5px; }
 
+/*acá toda la info del footer*/
 footer {
   color: #e25383;
   background-color: lightpink;
@@ -46,38 +53,8 @@ footer {
 tr th {
   color: #ff9dea; }
 
-.titulosPrincipales {
-  color: #e25383;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  margin-top: 50px;
-  margin-left: 20px;
-  margin-bottom: 50px; }
-
 .colorBoton {
   color: #e9608e; }
-
-#titulo-clave {
-  color: black;
-  font-weight: bold;
-  font-family: 'Oswald', sans-serif; }
-
-.menu {
-  color: #e25383;
-  font-family: sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-  display: inline-block;
-  width: 200px; }
-
-.subrayadoMenu {
-  text-decoration: none;
-  color: white;
-  background-color: lightpink; }
 
 nav {
   background-color: lightpink;
@@ -89,168 +66,7 @@ nav {
   grid-area: nav ul;
   margin-right: 0px; }
 
-/*.tituloNota1 {
-    width: 400px;
-    height: 400px;
-    padding: 20px;
-    margin-top: 20px;
-    grid-area: tituloNota1;
-    margin-left: -100px;
-}
-.rusia {
-    color: rgb(226, 83, 131);
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-    width: 400px;
-}
-.linkRusia{
-    text-decoration: none;
-    color: rgb(226, 83, 131);
-}
-.singleRusia{
-    text-align: justify;
-}
-.tituloNota2 {
-    width: 250px;
-    height: 100px;
-    padding: 20px;
-    margin-left: -100px;
-    margin-top: 200px;
-    margin-right: 30px;
-    grid-area: tituloNota2;
-    justify-self: stretch;
-    align-self: end;
-}
-.chita {
-    color: rgb(226, 83, 131);
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-    width: 250px;
-}
-.titulosScroll {
-    height: 400px;
-    width: 300px ;
-    padding-top: 0px;
-    padding-right: 10px;
-    margin-top: 50px;
-    grid-area: tituloScroll;
-    margin-right: 800px;
-    margin-left: 50px;
-}
-.taylorCorto {
-    color: rgb(226, 83, 131);
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-    width: 300px;
-}
-.tituloNota3 {
-    width: 250px;
-    height: 100px;
-    padding: 20px;
-    margin-right: 50px;
-    margin-top: 200px;
-    margin-left: 30px;
-    grid-area: tituloNota3;
-    justify-self: start;
-    align-self: end
-}
-.playlist {
-    color: rgb(226, 83, 131);
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-    width: 250px;
-}
-.tituloNota4 {
-    width: 250px;
-    height: 100px;
-    padding: 20px;
-    grid-area: tituloNota4;
-    justify-self: start;
-    align-self: end;
-    margin-left: 60px;
-    margin-top: 200px;
-}
-.conciertos{
-    color: rgb(226, 83, 131);
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-    width: 250px;
-}*/
-ul li ul {
-  position: absolute;
-  display: none; }
-
-ul li ul li {
-  display: block; }
-
-ul li:hover ul {
-  display: block;
-  background-color: white;
-  width: 20x; }
-
-/*.cubosParaMusica {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: space-evenly;
-}*/
-.artistasNuevosCubos {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: stretch;
-  align-content: space-evenly; }
-
-nav {
-  display: grid;
-  grid-template-columns: 200px 150px 200px 200px 200px;
-  grid-template-rows: 20px;
-  grid-column-gap: 2px;
-  grid-row-gap: 8px;
-  justify-content: space-around;
-  align-items: center;
-  align-content: space-evenly; }
-
-/*.cubosParaMusica{
-    display: grid;
-    grid-template-areas:
-   'tituloNota1 tituloNota1 tituloScroll'
-   'tituloNota1 tituloNota1 tituloScroll'
-   'tituloNota2 tituloNota3 tituloNota4';
-   grid-template-columns: 20px 90px 90px 20px;
-   grid-template-rows: 400px 400px 200px;
-   grid-row-gap: 20px;
-   grid-column-gap: 200px;
-   justify-content: space-around;
-   align-items: center;
-   align-content: space-evenly;
-   margin-right: 50px;
-   margin-left: 150px;
-   margin-top: -150px;
-}*/
-/*aca agregue las tandas de cards*/
-.primerosDosArtistas {
-  display: flex;
-  flex-direction: row;
-  margin-top: 25px;
-  justify-content: space-between;
-  margin: 100px; }
-
-.segundaTanda {
-  display: flex;
-  flex-direction: row;
-  margin-top: 25px;
-  justify-content: space-between;
-  margin: 20px; }
-
+/*cards inicio*/
 .titulosInicio__primerosDosArtistas {
   display: flex;
   flex-direction: row;
@@ -280,6 +96,7 @@ nav {
   margin-left: 20px;
   margin-bottom: 50px; }
 
+/*cards artistas*/
 .titulosArtistas__primerosTresArtistas {
   display: flex;
   flex-direction: row;
@@ -304,6 +121,7 @@ nav {
   margin-right: 20px;
   margin-bottom: 50px; }
 
+/*cards discos*/
 .titulosDiscos__primerosTresDiscos {
   display: flex;
   flex-direction: row;
@@ -328,6 +146,7 @@ nav {
   margin-right: 20px;
   margin-bottom: 50px; }
 
+/*detalles de playlist*/
 .descripcionPlaylist {
   font-weight: lighter;
   font-family: 'Poppins', sans-serif;
@@ -351,17 +170,75 @@ nav {
   margin-top: 50px;
   margin-bottom: 20px; }
 
-.rusia {
+.descripcionRecitales {
+  font-weight: lighter;
+  font-family: 'Poppins', sans-serif;
+  line-height: 25px;
+  color: #646262;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px; }
+
+/*detalles recitales*/
+.videosRecitales {
   margin-top: 50px;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 90px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; }
+
+.videoTom {
   text-align: center;
   color: #e9608e;
   margin-top: 50px;
+  margin-bottom: 20px; }
+
+.videoSantana {
+  text-align: center;
+  color: #e9608e;
+  margin-top: 50px;
+  margin-bottom: 20px; }
+
+.videoMen {
+  text-align: center;
+  color: #e9608e;
+  margin-top: 50px;
+  margin-bottom: 20px; }
+
+.videoChita {
+  text-align: center;
+  color: #e9608e;
+  margin-top: 50px;
+  margin-bottom: 20px; }
+
+/*datos conociendo rusia*/
+.rusia {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #e9608e;
+  margin-bottom: 20px; }
+
+/*boton de las crads*/
+.botonPersonalizado {
+  background-image: linear-gradient(to bottom, #DC3545, lightpink); }
+
+/*detalles de todas del sitio*/
+.containerNotas {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px; }
+
+h1.containerNotas__titulo {
+  font-style: italic;
   margin-bottom: 20px; }
 
 .titulosSecciones__nombre {
@@ -402,102 +279,6 @@ nav {
 
 .color-colorLetraCubo {
   color: black; }
-
-.botonPersonalizado {
-  background-image: linear-gradient(to bottom, #DC3545, lightpink); }
-
-.containerRusia {
-  margin-top: 50px;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-bottom: 50px; }
-
-h1.containerRusia__titulo {
-  font-style: italic;
-  margin-bottom: 20px; }
-
-.containerTaylor {
-  margin-top: 50px;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-bottom: 50px; }
-
-h1.containerTaylor__titulo {
-  font-style: italic;
-  margin-bottom: 20px; }
-
-.containerChita {
-  margin-top: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 50px; }
-
-h1.containerChita__titulo {
-  font-style: italic;
-  margin-bottom: 20px; }
-
-.containerProximos {
-  margin-top: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 50px; }
-
-h1.containerProximos__titulo {
-  font-style: italic;
-  margin-bottom: 20px; }
-
-.containerVerano {
-  margin-top: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 50px; }
-
-h1.containerVerano__titulo {
-  font-style: italic;
-  margin-bottom: 20px; }
-
-.descripcionRecitales {
-  font-weight: lighter;
-  font-family: 'Poppins', sans-serif;
-  line-height: 25px;
-  color: #646262;
-  margin-top: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 50px; }
-
-.videosRecitales {
-  margin-top: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 90px;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-
-.videoTom {
-  text-align: center;
-  color: #e9608e;
-  margin-top: 50px;
-  margin-bottom: 20px; }
-
-.videoSantana {
-  text-align: center;
-  color: #e9608e;
-  margin-top: 50px;
-  margin-bottom: 20px; }
-
-.videoMen {
-  text-align: center;
-  color: #e9608e;
-  margin-top: 50px;
-  margin-bottom: 20px; }
-
-.videoChita {
-  text-align: center;
-  color: #e9608e;
-  margin-top: 50px;
-  margin-bottom: 20px; }
 
 /*aca segui agregando todo lo que quieras para la media query de celu,centar con flexbox la cards, y demas*/
 @media only screen and (max-width: 767px) {
