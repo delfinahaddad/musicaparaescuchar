@@ -88,23 +88,6 @@ nav {
 .contacto__titulo {
   color: #DC3545; }
 
-.fraseInicio {
-  align-items: center;
-  margin-top: 150px;
-  color: #DC3545; }
-
-.letraFraseInicio {
-  text-align: center;
-  font-size: 80px; }
-
-.letraFraseSegunda {
-  text-align: center;
-  font-size: 40px; }
-
-.letraFraseTercera {
-  text-align: center;
-  font-size: 12px; }
-
 /*este se lo apliqué al titulo de cada sección*/
 .titulosSecciones__nombre {
   font-weight: bold;
@@ -306,15 +289,57 @@ h1.containerNotas__titulo {
   body {
     display: flex;
     flex-direction: column; }
-  .primerosDosArtistas {
+  .titulosInicio__primerosDosArtistas {
     display: flex;
     flex-direction: column;
     margin-top: 25px;
     justify-content: space-between;
     align-items: center; }
-  .segundaTanda {
+  .titulosInicio__segundaTanda {
     display: flex;
     flex-direction: column;
     margin-top: 25px;
     justify-content: space-between;
-    align-items: center; } }
+    align-items: center; }
+  .container {
+    width: 300px;
+    height: 250px; }
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    justify-content: space-between;
+    align-items: left;
+    margin-right: 10px; }
+  .titulosArtistas__primerosTresArtistas {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    justify-content: space-between;
+    align-items: center; }
+  .titulosArtistas__segundaTanda {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    justify-content: space-between;
+    align-items: center; }
+  .titulosDiscos__primerosTresDiscos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    justify-content: space-between;
+    align-items: center; }
+  .titulosDiscos__segundaTanda {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    justify-content: space-between;
+    align-items: center; }
+  .responsiveTom {
+    width: 100%; }
+  .responsiveSantana {
+    width: 100%; }
+  .responsiveMen {
+    width: 100%; }
+  .responsiveChita {
+    width: 100%; } }

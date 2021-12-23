@@ -108,30 +108,7 @@ nav {
     color: #DC3545;
 }
 
-.fraseInicio{
-    align-items: center;
-    margin-top: 150px;
-    color: #DC3545;
 
-}
-
-.letraFraseInicio{
-    text-align: center;
-    font-size: 80px;
-    
-}
-
-.letraFraseSegunda{
-    text-align: center;
-    font-size: 40px ;
-    
-}
-
-.letraFraseTercera{
-    text-align: center;
-    font-size: 12px;
-    
-}
 
 /*este se lo apliqué al titulo de cada sección*/
 .titulosSecciones__nombre{
@@ -348,27 +325,81 @@ h1.containerNotas__titulo{
 }
 
 /*aca segui agregando todo lo que quieras para la media query de celu,centar con flexbox la cards, y demas*/
-/*@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px){
    body{
         display: flex;
         flex-direction: column;
     }
-   .primerosDosArtistas{
-    display: flex;
-    flex-direction: column;
-    margin-top: 25px;
-    justify-content: space-between;
-    align-items: center;
+
+   .titulosInicio__primerosDosArtistas{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        justify-content: space-between;
+        align-items: center;
     
      
-}
-.segundaTanda{
-display: flex;
-flex-direction: column;
-margin-top: 25px;
-  justify-content: space-between;
-  align-items: center;
-  
-}
+    }
+    .titulosInicio__segundaTanda{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        justify-content: space-between;
+        align-items: center;
+    
+    } 
+    .container{
+        width: 300px;
+        height: 250px;   
+    }
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        justify-content: space-between;
+        align-items: left;
+        margin-right: 10px;
+    }
+    .titulosArtistas__primerosTresArtistas{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .titulosArtistas__segundaTanda{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        justify-content: space-between;
+        align-items: center; 
+    }
+    .titulosDiscos__primerosTresDiscos{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        justify-content: space-between;
+        align-items: center; 
+    }
+    .titulosDiscos__segundaTanda{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        justify-content: space-between;
+        align-items: center; 
+    }
+    .responsiveTom{
+        width: 100%;
+    }
+    .responsiveSantana{
+        width: 100%;
+    }
+    .responsiveMen{
+        width: 100%;
+    }
+    .responsiveChita{
+        width: 100%;
+    } 
+    
 }
 
