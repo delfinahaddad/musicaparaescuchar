@@ -284,7 +284,7 @@ h1.containerNotas__titulo {
 .color-colorLetraCubo {
   color: black; }
 
-/*aca segui agregando todo lo que quieras para la media query de celu,centar con flexbox la cards, y demas*/
+/*media query de celu y tablet*/
 @media only screen and (max-width: 767px) {
   body {
     display: flex;
